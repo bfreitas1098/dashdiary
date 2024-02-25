@@ -2,12 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 
 :root {
-  --bg-color: "#F6F1EE";
-  --body-color: "#272121";
-  --primary-color: "#C63D2F";
-  --secondary-color: "#FFBB5C";
-  --dark-orange: "#E25E3E";
-  --light-orange: "#FF9B50";
   --heading-ff: "Literata", serif;
   --body-ff: "Manrope", sans-serif;
 }
@@ -16,10 +10,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: #f6f1ee;
   font-family: var(--body-ff);
+}
+
+button {
+  transition: all 200ms ease-in-out;
 }
