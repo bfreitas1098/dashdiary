@@ -16,7 +16,7 @@ const Header = () => {
         </button>
         <button
           type="button"
-          className="ml-3 inline-flex items-center rounded-md bg-primary px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-hovPrimary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          className="ml-3 inline-flex items-center rounded-md bg-darkOrange px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-lightOrange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
         >
           Profile
         </button>
