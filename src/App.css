@@ -3,7 +3,6 @@
 
 :root {
   --heading-ff: "Literata", serif;
-  --body-ff: "Manrope", sans-serif;
 }
 
 * {
@@ -15,9 +14,17 @@
 
 body {
   background-color: #f6f1ee;
-  font-family: var(--body-ff);
+  font-family: "Manrope", sans-serif;
 }
 
 button {
   transition: all 200ms ease-in-out;
 }
+
+/* Stats */
+dt,
+dd {
+  font-family: var(--heading-ff);
+}
+
+/* Form */
