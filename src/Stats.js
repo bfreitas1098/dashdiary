@@ -13,7 +13,7 @@ export default function Stats() {
             key={item.name}
             className="overflow-hidden rounded-lg bg-white2 px-4 py-5 shadow-md sm:p-6"
           >
-            <dt className="truncate text-sm font-medium text-darkGray mb-3">
+            <dt className="truncate text-sm font-medium text-body mb-3">
               {item.name}
             </dt>
             <dd className="mt-1 text-3xl font-bold tracking-tight text-darkOrange">

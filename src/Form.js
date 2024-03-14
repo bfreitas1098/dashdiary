@@ -1,7 +1,7 @@
 export default function Form() {
   return (
-    <div className="px-10 mb-32">
-      <form className="px-10 bg-white2 py-8 rounded-lg">
+    <div className="px-10 mb-24">
+      <form className="px-10 bg-white2 py-8 rounded-lg shadow-md">
         <div className="space-y-12">
           <div className="border-b border-gray pb-12">
             <div className="flex justify-between">
