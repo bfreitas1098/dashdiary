@@ -22,9 +22,16 @@ button {
 }
 
 /* Stats */
-dt,
-dd {
+dt {
   font-family: var(--heading-ff);
 }
 
 /* Form */
+.subtitle {
+  margin-top: 0.5rem !important;
+}
+
+.textareas-container {
+  margin-top: 4rem !important;
+  margin-bottom: 6rem !important;
+}

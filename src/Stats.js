@@ -7,7 +7,7 @@ const stats = [
 export default function Stats() {
   return (
     <>
-      <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3 px-10">
+      <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3 px-10 mb-20">
         {stats.map((item) => (
           <div
             key={item.name}
