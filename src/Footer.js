@@ -7,7 +7,10 @@ export default function Footer() {
         </span>{" "}
         Built by
       </div>
-      <a href="www.linkedin.com/in/barbara-freitas-dev" className="footer-link">
+      <a
+        href="https://www.linkedin.com/in/barbara-freitas-dev/"
+        className="footer-link"
+      >
         Barbara Freitas
       </a>
     </footer>

@@ -9,13 +9,13 @@ const Header = () => {
       <div className="mt-4 flex md:ml-4 md:mt-0">
         <button
           type="button"
-          className="inline-flex items-center rounded-md bg-white2 px-4 py-3 text-sm font-semibold text-body shadow-sm ring-1 ring-inset ring-lightGray hover:bg-lightOrange hover:text-body"
+          className="inline-flex items-center rounded-md bg-white2 px-4 py-3 text-sm font-semibold text-body shadow-sm ring-1 ring-inset ring-lightGray hover:text-primary hover:ring-1 hover:ring-inset hover:ring-primary"
         >
           Log a Race
         </button>
         <button
           type="button"
-          className="ml-3 inline-flex items-center rounded-md bg-primary px-4 py-3 text-sm font-semibold text-white2 shadow-sm hover:bg-darkOrange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:primary"
+          className="ml-3 inline-flex items-center rounded-md bg-primary px-4 py-3 text-sm font-semibold text-white2 shadow-sm hover:bg-white2 hover:text-lightOrange hover:ring-1 hover:ring-inset hover:ring-lightOrange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:primary"
         >
           Profile
         </button>
