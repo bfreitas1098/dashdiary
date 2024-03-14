@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Footer";
 import Form from "./Form";
 import Header from "./Header";
 import List from "./List";
@@ -11,6 +12,7 @@ function App() {
       <Stats />
       <Form />
       <List />
+      <Footer />
     </div>
   );
 }

@@ -17,7 +17,7 @@ const people = [
 
 export default function List() {
   return (
-    <div className="px-10 mb-16">
+    <div className="px-10 mb-48">
       <ul className="divide-y divide-gray bg-white2 rounded-lg shadow-md">
         {people.map((person) => (
           <li
