@@ -10,7 +10,7 @@ const Header = () => {
       <div className="mt-4 flex md:ml-4 md:mt-0">
         <button
           type="button"
-          className="inline-flex items-center rounded-md bg-white2 px-3 py-2 text-sm font-semibold text-body shadow-sm ring-1 ring-inset ring-gray hover:bg-hovWhite"
+          className="inline-flex items-center rounded-md bg-white2 px-3 py-2 text-sm font-semibold text-body shadow-sm ring-1 ring-inset ring-lightGray hover:bg-hovWhite"
         >
           Log a Race
         </button>

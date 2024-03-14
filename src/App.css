@@ -27,6 +27,10 @@ dt {
 }
 
 /* Form */
+h2 {
+  font-family: var(--heading-ff);
+}
+
 .subtitle {
   margin-top: 0.5rem !important;
 }
