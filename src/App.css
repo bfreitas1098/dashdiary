@@ -18,7 +18,13 @@ body {
 }
 
 button {
-  transition: all 200ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+/* Header */
+.logo {
+  width: 11rem;
+  height: 7rem;
 }
 
 /* Stats */
@@ -57,7 +63,7 @@ footer a:link,
 footer a:visited {
   text-decoration: underline;
   color: inherit;
-  padding-left: 0.2rem;
+  padding-left: 0.25rem;
   transition: 200ms ease-in;
 }
 

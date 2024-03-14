@@ -1,4 +1,4 @@
-const people = [
+const runs = [
   {
     date: "March 1st, 2024",
     distance: "6 mi",
@@ -19,26 +19,23 @@ export default function List() {
   return (
     <div className="px-10 mb-48">
       <ul className="divide-y divide-gray bg-white2 rounded-lg shadow-md">
-        {people.map((person) => (
-          <li
-            key={person.id}
-            className="flex justify-between gap-x-6 py-5 px-8"
-          >
+        {runs.map((run) => (
+          <li key={run.id} className="flex justify-between gap-x-6 py-5 px-8">
             <div className="flex min-w-0 gap-x-4">
               <div className="min-w-0 flex-auto">
                 <p className="text-sm font-semibold leading-6 text-body">
-                  {person.date}
+                  {run.date}
                 </p>
                 <p className="mt-1 truncate text-xs leading-5 text-darkGray">
-                  {person.distance}
+                  {run.distance}
                 </p>
               </div>
             </div>
             <div className="lg:flex md:flex lg:flex-row md:flex-row lg:items-center md:items-center shrink-0 gap-8 sm:items-end">
               <div className="hidden sm:flex sm:flex-col sm:items-end">
-                <p className="text-sm leading-6 text-body">{person.duration}</p>
-                <p className="mt-1 text-xs leading-5 text-placeholder">
-                  <time dateTime={person.id}>{person.pace}</time>
+                <p className="text-sm leading-6 text-body">{run.duration}</p>
+                <p className="mt-1 text-xs leading-5 text-darkOrange">
+                  <time dateTime={run.id}>{run.pace}</time>
                 </p>
               </div>
               <svg

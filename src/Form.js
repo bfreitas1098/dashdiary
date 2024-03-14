@@ -185,7 +185,7 @@ export default function Form() {
                 />
               </div>
             </div>
-            <div className="sm:col-span-2 mr-12">
+            <div className="sm:col-span-2">
               <label
                 htmlFor="comments"
                 className="block text-sm font-medium leading-6 text-body"
@@ -206,13 +206,7 @@ export default function Form() {
           </div>
         </div>
 
-        <div className="mt-6 flex items-center justify-end gap-x-6">
-          <button
-            type="button"
-            className="text-sm font-semibold leading-6 text-body"
-          >
-            Cancel
-          </button>
+        <div className="mt-4 flex items-center justify-end">
           <button
             type="submit"
             className="rounded-md bg-primary px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-darkOrange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
