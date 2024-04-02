@@ -1,7 +1,7 @@
 export default function Form() {
   return (
     <div className="px-10 mb-24">
-      <form className="px-10 bg-white2 py-8 rounded-lg shadow-md">
+      <form className="px-10 py-8 rounded-lg shadow-md bg-white2">
         <div className="space-y-12">
           <div className="border-b border-gray pb-12">
             <div className="flex justify-between">
@@ -28,7 +28,7 @@ export default function Form() {
                       name="date"
                       id="date"
                       autoComplete="date"
-                      className="block flex-auto px-2 border-0 bg-transparent py-1.5 text-body placeholder:placeholder focus:ring-0 sm:text-sm sm:leading-6"
+                      className="block flex-auto px-2 bg-white2 rounded-md border-0 bg-transparent ring-1 ring-inset ring-lightOrange2 focus:ring-2 focus:ring-inset focus:lightOrange py-1.5 text-body placeholder:placeholder sm:text-sm sm:leading-6"
                       placeholder="mm/dd/yy"
                     />
                   </div>
@@ -46,7 +46,7 @@ export default function Form() {
                     type="number"
                     name="distance"
                     id="distance"
-                    className="block w-full rounded-md border-0 py-1.5 pl-3 pr-12 text-body ring-1 ring-inset ring-lightOrange2  focus:ring-2 focus:ring-inset focus:lightOrange sm:text-sm sm:leading-6 placeholder:placeholder"
+                    className="block w-full rounded-md bg-white2 border-0 py-1.5 pl-3 pr-12 text-body ring-1 ring-inset ring-lightOrange2 focus:ring-2 focus:ring-inset focus:lightOrange sm:text-sm sm:leading-6 placeholder:placeholder"
                     placeholder="10"
                     aria-describedby="total-distance"
                   />
@@ -73,7 +73,7 @@ export default function Form() {
                       type="text"
                       name="duration"
                       id="duration"
-                      className="block flex-auto px-2 border-0 bg-transparent py-1.5 text-body placeholder:placeholder focus:ring-0 sm:text-sm sm:leading-6"
+                      className="block flex-auto px-2 bg-white2 rounded-md border-0 bg-transparent py-1.5 text-body ring-1 ring-inset ring-lightOrange2 focus:ring-2 focus:ring-inset focus:lightOrange placeholder:placeholder sm:text-sm sm:leading-6"
                       placeholder="0h 00min"
                     />
                   </div>
@@ -93,7 +93,7 @@ export default function Form() {
                       type="text"
                       name="location"
                       id="location"
-                      className="block flex-auto px-2 border-0 bg-transparent py-1.5 text-body placeholder:placeholder focus:ring-0 sm:text-sm sm:leading-6"
+                      className="block flex-auto px-2 rounded-md border-0 bg-white2 py-1.5 text-body placeholder:placeholder ring-1 ring-inset ring-lightOrange2 focus:ring-2 focus:ring-inset focus:lightOrange sm:text-sm sm:leading-6"
                       placeholder="Ex: Miami, FL"
                     />
                   </div>
@@ -112,7 +112,7 @@ export default function Form() {
                       type="number"
                       name="bpm"
                       id="bpm"
-                      className="block flex-auto px-2 border-0 bg-transparent py-1.5 text-body focus:ring-0 sm:text-sm sm:leading-6 placeholder:placeholder"
+                      className="block flex-auto px-2 rounded-md border-0 bg-white2 py-1.5 text-body ring-1 ring-inset ring-lightOrange2 focus:ring-2 focus:ring-inset focus:lightOrange sm:text-sm sm:leading-6 placeholder:placeholder"
                       placeholder="150"
                     />
                   </div>
@@ -131,7 +131,7 @@ export default function Form() {
                       type="number"
                       name="cadence"
                       id="cadence"
-                      className="block flex-auto px-2 border-0 bg-transparent py-1.5 text-body focus:ring-0 sm:text-sm sm:leading-6 placeholder:placeholder"
+                      className="block flex-auto px-2 rounded-md border-0 bg-white2 py-1.5 text-body ring-1 ring-inset ring-lightOrange2 focus:ring-2 focus:ring-inset focus:lightOrange sm:text-sm sm:leading-6 placeholder:placeholder"
                       placeholder="160"
                     />
                   </div>
@@ -161,7 +161,7 @@ export default function Form() {
                   rows={4}
                   name="fuel"
                   id="fuel"
-                  className="block w-full rounded-md border-0 p-1.5 text-body shadow-sm ring-1 ring-inset ring-lightOrange2 placeholder:placeholder focus:ring-2 focus:ring-inset focus:lightOrange sm:text-sm sm:leading-6"
+                  className="block w-full rounded-md bg-white2 border-0 p-1.5 text-body shadow-sm ring-1 ring-inset ring-lightOrange2 placeholder:placeholder focus:ring-2 focus:ring-inset focus:lightOrange sm:text-sm sm:leading-6"
                   placeholder="Banana, toast, gels, etc..."
                   defaultValue={""}
                 />

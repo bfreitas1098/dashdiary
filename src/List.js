@@ -18,7 +18,7 @@ const runs = [
 export default function List() {
   return (
     <div className="px-10 mb-48">
-      <ul className="divide-y divide-gray bg-white2 rounded-lg shadow-md">
+      <ul className="divide-y divide-gray bg-white2 rounded-lg shadow-md border border-solid border-lightGray">
         {runs.map((run) => (
           <li key={run.id} className="flex justify-between gap-x-6 py-5 px-8">
             <div className="flex min-w-0 gap-x-4">

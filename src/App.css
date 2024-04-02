@@ -13,7 +13,8 @@
 }
 
 body {
-  background-color: #f6f1ee;
+  /* background-color: #ffffff; */
+  background-image: url("./paper-bg.png");
   font-family: "Manrope", sans-serif;
 }
 
@@ -71,3 +72,5 @@ footer a:hover,
 footer a:active {
   color: #3d3737;
 }
+
+/* Media Queries */
